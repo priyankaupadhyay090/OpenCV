@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r'image\flower.png', -1) 
+img = cv2.imread(r'assets\flower.png', -1) 
 
 
 #1. IMAGE REPRESENTATION

@@ -1,6 +1,8 @@
 '''
 OpenCV --> Open Source Computer Vision Library 
 - used for image analysis, video analysis, image processing, image manipulation, 
+Link: https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+
 '''
 
 import cv2
@@ -14,7 +16,7 @@ import cv2
 # cv2_imread_grayscale (0): load image in grayscale mode
 # cv2.imread_unchanged (1): load image as such incluing alpha channel
 
-img = cv2.imread(r'image\flower.png', -1)  # load in grayscale
+img = cv2.imread(r'assets\flower.png', -1)  # load in grayscale
 
 
 
@@ -64,4 +66,4 @@ cv2.destroyAllWindows()
 
 #4. SAVE AN IMAGE
 
-cv2.imwrite('img_rotate.jpg', img_rotate)
+cv2.imwrite('assets\img_rotate.jpg', img_rotate)

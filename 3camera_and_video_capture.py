@@ -12,7 +12,7 @@ import cv2
 
 # cap = cv2.VideoCapture(0) --> who has webcam
 
-cap = cv2.VideoCapture('hiphop.mp4') # who does not have webcam, so just take a mp4 video
+cap = cv2.VideoCapture(r'assets\hiphop.mp4') # who does not have webcam, so just take a mp4 video
 
 
 # check if camera opened succeefully
@@ -63,7 +63,7 @@ cv2.destroyAllWindows()
 
 # create array with zeros and then pass fill it with image shape
 
-cap1 = cv2.VideoCapture('hiphop.mp4')
+cap1 = cv2.VideoCapture(r'assets\hiphop.mp4')
 while True:
     ret, frame = cap1.read()
     # we also need heigth and widght of the image so that we can put our 4 frame there
