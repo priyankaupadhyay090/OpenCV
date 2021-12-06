@@ -1,7 +1,5 @@
 # OpenCV
 
-help from: https://www.youtube.com/playlist?list=PLzMcBGfZo4-lUA8uGjeXhBUUzPYc6vZRn
-
 1. Introduction of OpenCV and Images
 2. Image Fundamental and Manipulation 
 3. Cameras and Video Capture
